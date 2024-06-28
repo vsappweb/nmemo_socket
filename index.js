@@ -1,6 +1,7 @@
+const ORIGIN = process.env.ORIGIN
 const io = require("socket.io")(8900, {
     cors: {
-        origin: "https://nmemo.vercel.app",
+        origin: `${ORIGIN}`,
     }
 });
 
