@@ -1,4 +1,4 @@
-// const ORIGINs = process.env.ORIGIN
+// const ORIGIN = process.env.REACT_APP_ORIGIN
 const io = require("socket.io")(8900, {
     cors: {
         origin: "*",
